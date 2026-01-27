@@ -1,0 +1,11 @@
+# Secrets
+iot_irrigation_esp/data/*.key
+iot_irrigation_esp/data/*.pem
+iot_irrigation_esp/data/*.crt
+.env
+
+# Builds
+.pio/
+.pioenvs/
+**/node_modules/
+.vscode/
