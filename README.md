@@ -1,30 +1,20 @@
-\# IoT Farming Security Code
+# IoT Farming Security Prototype 🚜🔒
 
+ESP32 smart irrigation + secure cloud dashboard with AWS IoT Core.
 
+[![ESP32](https://img.shields.io/badge/ESP32-S3-blue)](https://docs.platformio.org/en/latest/boards/espressif32/esp32-s3.html)
+[![PlatformIO](https://img.shields.io/badge/PlatformIO-IDE-orange)](https://platformio.org/)
 
-ESP32 smart irrigation + secure dashboard prototype.
+## 📁 Structure
 
+## 🚀 Quick Start
 
+### ESP32 Firmware
+```bash
+cd iot_irrigation_esp
+pio run --target upload  # Flash to ESP32
 
-\## Folders
-
-\- `iot\_irrigation\_esp/` - ESP32 firmware (PlatformIO, MQTT/TLS, AWS IoT)
-
-\- `dashboard/` - Node.js dashboard (AWS IoT Core)
-
-
-
-\## Setup
-
-1\. Add AWS certs to `iot\_irrigation\_esp/data/`
-
-2\. `pio run --target upload` (ESP32)
-
-3\. `npm install \&\& node dashboard/index.js`
-
-
-
-\*\*Security\*\*: Certs removed. Add your own.
-
-
+cd dashboard/dashboard
+npm install
+node index.js
 
