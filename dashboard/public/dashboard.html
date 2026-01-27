@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Irrigation Dashboard</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+
+    <div class="bg-white shadow-xl rounded-2xl p-8 w-full max-w-2xl">
+        <!-- Header with Title and Logout Button -->
+        <div class="flex justify-between items-center mb-6">
+            <h1 class="text-3xl font-bold text-gray-800">Smart Irrigation Dashboard</h1>
+            <button id="logout-button" class="px-4 py-2 text-sm font-semibold text-white bg-red-600 rounded-lg hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+                Logout
+            </button>
+        </div>
+
+        <!-- Dashboard Content Container -->
+        <div id="dashboard-content" class="text-center transition-all duration-500 ease-in-out">
+            <!-- Connection Status -->
+            <div class="mb-8">
+                <span id="connection-status" class="inline-block px-4 py-2 text-sm font-semibold rounded-full bg-yellow-200 text-yellow-800">
+                    Initializing...
+                </span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
+                <!-- Soil Moisture Card -->
+                <div class="bg-gray-50 rounded-lg p-6 shadow-md flex flex-col items-center">
+                    <span class="text-5xl mb-2">🌱</span>
+                    <p class="text-sm font-medium text-gray-500">Soil Moisture</p>
+                    <p id="moisture-value" class="text-4xl font-extrabold text-blue-600">-- %</p>
+                </div>
+
+                <!-- Temperature Card -->
+                <div class="bg-gray-50 rounded-lg p-6 shadow-md flex flex-col items-center">
+                    <span class="text-5xl mb-2">🌡️</span>
+                    <p class="text-sm font-medium text-gray-500">Temperature</p>
+                    <p id="temperature-value" class="text-4xl font-extrabold text-red-600">-- °C</p>
+                </div>
+
+                <!-- Humidity Card -->
+                <div class="bg-gray-50 rounded-lg p-6 shadow-md flex flex-col items-center">
+                    <span class="text-5xl mb-2">💧</span>
+                    <p class="text-sm font-medium text-gray-500">Humidity</p>
+                    <p id="humidity-value" class="text-4xl font-extrabold text-green-600">-- %</p>
+                </div>
+            </div>
+
+            <!-- Watering Status Indicator -->
+            <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <p class="text-xl font-bold text-gray-800 mb-2">Water Pump Status</p>
+                <span id="pump-status" class="inline-block px-4 py-2 text-sm font-semibold rounded-full bg-gray-300 text-gray-700">
+                    OFFLINE
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

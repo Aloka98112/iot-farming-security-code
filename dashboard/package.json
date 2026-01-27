@@ -1,0 +1,21 @@
+{
+  "name": "irrigation-dashboard",
+  "version": "1.0.0",
+  "description": "A simple HTML/JS/CSS starter template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.15",
+    "aws-sdk": "^2.1692.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mqtt": "^5.14.0",
+    "ws": "^8.18.3"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "irrigation-dashboard": "file:.."
+  }
+}

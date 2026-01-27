@@ -1,0 +1,27 @@
+const AWS_IOT_ENDPOINT = "a1zx1lood4k4kc-ats.iot.ap-southeast-2.amazonaws.com"; // Your AWS IoT Endpoint
+const AWS_REGION = "ap-southeast-2"; // Your AWS Region
+const MQTT_TOPIC = "webapp/data";
+
+// ⚠️ IMPORTANT: Replace these with your AWS Cognito details ⚠️
+const COGNITO_IDENTITY_POOL_ID = "ap-southeast-2:9270ed60-7a98-4814-b416-2e0b4879bbfa";
+const COGNITO_USER_POOL_ID = "ap-southeast-2_BocMacrEF";
+const COGNITO_USER_POOL_CLIENT_ID = "7s5b865f9n29egaf83ps0n51og";
+
+admin@sid.com
+Aloka@2025
+
+
+//code to attach policy
+aws iot attach-policy \
+    --policy-name "ESP32-Policy" \
+    --target "ap-southeast-2:c5a8dacc-bcaf-c6d7-3f6a-2d7e36e44f5a" \
+    --region ap-southeast-2
+
+    aws cognito-idp initiate-auth --region ap-southeast-2 --client-id 3r9226ffrkgt4c1pbc5nihs72n --auth-flow USER_PASSWORD_AUTH --auth-parameters USERNAME=testuser,PASSWORD=V6Sd.inm
+
+//-------------------
+
+aws cognito-idp initiate-auth --region ap-southeast-2 --client-id 3r9226ffrkgt4c1pbc5nihs72n --auth-flow USER_PASSWORD_AUTH --auth-parameters USERNAME=testuser,PASSWORD=V6Sd.inm
+
+access key : AKIA4LKG2ZS6GGWYK5XY
+secret access key : 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
