@@ -7,8 +7,8 @@
 #include <LittleFS.h>
 
 // ⚠️ IMPORTANT: Replace these with your Wi-Fi and AWS credentials ⚠️
-const char* WIFI_SSID = "Sky-WiFi-FE01";
-const char* WIFI_PASSWORD = "fingeruncle9628";
+const char* WIFI_SSID = "....";
+const char* WIFI_PASSWORD = "...";
 
 const char* AWS_IOT_ENDPOINT = "a1zx1lood4k4kc-ats.iot.ap-southeast-2.amazonaws.com";
 const char* AWS_THING_NAME = "ESP32-S3";
