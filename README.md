@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1142867559.svg)](https://doi.org/10.5281/zenodo.22742488)
 # IoT Farming Security Prototype 🚜🔒
 
 This repository contains the prototype source code, raw CloudWatch execution logs, and experimental datasets supporting the paper:
