@@ -1,20 +1,21 @@
 # IoT Farming Security Prototype 🚜🔒
 
-ESP32 smart irrigation + secure cloud dashboard with AWS IoT Core.
+This repository contains the prototype source code, raw CloudWatch execution logs, and experimental datasets supporting the paper:
+**"Threat-Centric Defence-in-Depth for IoT-Enabled Smart Farming Systems in Cloud Environments"** (ICECER 2026)
 
-[![ESP32](https://img.shields.io/badge/ESP32-S3-blue)](https://docs.platformio.org/en/latest/boards/espressif32/esp32-s3.html)
-[![PlatformIO](https://img.shields.io/badge/PlatformIO-IDE-orange)](https://platformio.org/)
+---
 
-## 📁 Structure
+## 📁 Repository Structure & Supplementary Materials
 
-## 🚀 Quick Start
+### 1. Source Code & Firmware
+- `iot_irrigation_esp/`: NodeMCU ESP32-S3 firmware (C++ / PlatformIO)
+- `dashboard/`: Web application dashboard (Node.js / React)
 
-### ESP32 Firmware
-```bash
-cd iot_irrigation_esp
-pio run --target upload  # Flash to ESP32
-
-cd dashboard/dashboard
-npm install
-node index.js
-
+### 2. Supplementary Datasets & Replication Package
+| Category | File Name | Description |
+| :--- | :--- | :--- |
+| **Threat Modeling** | [`Comprehensive_Threat_Dataset.xlsx`](./supplementary_data/Comprehensive_Threat_Dataset.xlsx) | Full catalog of 124 identified Agri-IoT threats mapped to CVSS v3.1 |
+| **Threat Modeling** | [`High_Risk_Threat_Summary.xlsx`](./supplementary_data/High_Risk_Threat_Summary.xlsx) | Selected high-risk threat matrix (CVSS >= 7.0) |
+| **Threat Modeling** | [`Threat_Clarification_8_Threats.docx`](./supplementary_data/Threat_Clarification_8_Threats.docx) | Step-by-step breakdown of the 8 simulated attack scenarios (T1–T8) |
+| **Experimental Data** | [`Dataset_Before_Mitigation.xlsx`](./supplementary_data/Dataset_Before_Mitigation.xlsx) | Unsecured baseline telemetry stream |
+| **Experimental Data** | [`Processed_Security_Logs.xlsx`](./supplementary_data/Processed_Security_Logs.xlsx) | Master processed evaluation dataset (5,698 secure publishes) |
