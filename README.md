@@ -14,8 +14,8 @@ This repository contains the prototype source code, raw CloudWatch execution log
 ### 2. Supplementary Datasets & Replication Package
 | Category | File Name | Description |
 | :--- | :--- | :--- |
-| **Threat Modeling** | [`Comprehensive_Threat_Dataset.xlsx`](./supplementary_data/Comprehensive_Threat_Dataset.xlsx) | Full catalog of 124 identified Agri-IoT threats mapped to CVSS v3.1 |
-| **Threat Modeling** | [`High_Risk_Threat_Summary.xlsx`](./supplementary_data/High_Risk_Threat_Summary.xlsx) | Selected high-risk threat matrix (CVSS >= 7.0) |
-| **Threat Modeling** | [`Threat_Clarification_8_Threats.docx`](./supplementary_data/Threat_Clarification_8_Threats.docx) | Step-by-step breakdown of the 8 simulated attack scenarios (T1–T8) |
-| **Experimental Data** | [`Dataset_Before_Mitigation.xlsx`](./supplementary_data/Dataset_Before_Mitigation.xlsx) | Unsecured baseline telemetry stream |
-| **Experimental Data** | [`Processed_Security_Logs.xlsx`](./supplementary_data/Processed_Security_Logs.xlsx) | Master processed evaluation dataset (5,698 secure publishes) |
+| **Threat Modeling** | [`Comprehensive_Threat_Dataset.xlsx`](./Supplementary_Data/Comprehensive_Threat_Dataset.xlsx) | Full catalog of 124 identified Agri-IoT threats mapped to CVSS v3.1 |
+| **Threat Modeling** | [`High_Risk_Threat_Summary.xlsx`](./Supplementary_Data/High_Risk_Threat_Summary.xlsx) | Selected high-risk threat matrix (CVSS >= 7.0) |
+| **Threat Modeling** | [`Threat_Clarification_8_Threats.docx`](./Supplementary_Data/Threat_Clarification_8_Threats.docx) | Step-by-step breakdown of the 8 simulated attack scenarios (T1–T8) |
+| **Experimental Data** | [`Dataset_Before_Mitigation.xlsx`](./Supplementary_Data/Dataset_Before_Mitigation.xlsx) | Unsecured baseline telemetry stream |
+| **Experimental Data** | [`Processed_Security_Logs.xlsx`](./Supplementary_Data/Processed_Security_Logs.xlsx) | Master processed evaluation dataset (5,698 secure publishes) |
