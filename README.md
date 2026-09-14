@@ -12,10 +12,11 @@ This repository contains the prototype source code, raw CloudWatch execution log
 - `dashboard/`: Web application dashboard (Node.js / React)
 
 ### 2. Supplementary Datasets & Replication Package
+
 | Category | File Name | Description |
 | :--- | :--- | :--- |
-| **Threat Modeling** | [`Comprehensive_Threat_Dataset.xlsx`](./Supplementary_Data/Comprehensive_Threat_Dataset.xlsx) | Full catalog of 124 identified Agri-IoT threats mapped to CVSS v3.1 |
-| **Threat Modeling** | [`High_Risk_Threat_Summary.xlsx`](./Supplementary_Data/High_Risk_Threat_Summary.xlsx) | Selected high-risk threat matrix (CVSS >= 7.0) |
-| **Threat Modeling** | [`Threat_Clarification_8_Threats.docx`](./Supplementary_Data/Threat_Clarification_8_Threats.docx) | Step-by-step breakdown of the 8 simulated attack scenarios (T1–T8) |
-| **Experimental Data** | [`Dataset_Before_Mitigation.xlsx`](./Supplementary_Data/Dataset_Before_Mitigation.xlsx) | Unsecured baseline telemetry stream |
-| **Experimental Data** | [`Processed_Security_Logs.xlsx`](./Supplementary_Data/Processed_Security_Logs.xlsx) | Master processed evaluation dataset (5,698 secure publishes) |
+| **Threat Modeling** | [`Comprehensive Threat Dataset.xlsx`](./Supplementary_Data/Comprehensive%20Threat%20Dataset.xlsx) | Full catalog of 124 identified Agri-IoT threats mapped to CVSS v3.1 |
+| **Threat Modeling** | [`Final High-Risk Threat Summary.xlsx`](./Supplementary_Data/Final%20High-Risk%20Threat%20Summary.xlsx) | Selected high-risk threat matrix (CVSS >= 7.0) |
+| **Threat Modeling** | [`Threat Clarification - 8 Threats.docx`](./Supplementary_Data/Threat%20Clarification%20-%208%20Threats.docx) | Step-by-step breakdown of the 8 simulated attack scenarios (T1–T8) |
+| **Experimental Data** | [`Dataset - Before Mitigation.xlsx`](./Supplementary_Data/Dataset%20-%20Before%20Mitigation.xlsx) | Unsecured baseline telemetry stream |
+| **Experimental Data** | [`Processed Security Logs.xlsx`](./Supplementary_Data/Processed%20Security%20Logs.xlsx) | Master processed evaluation dataset (5,698 secure publishes) |
